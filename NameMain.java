@@ -3,5 +3,6 @@ public class NameMain{
         Name n = new Name("sEan","Michael","Morris");
         System.out.println(n.lastFirst());
         System.out.println(n.fullName());
+        System.out.println(n.initials());
     } 
 }
