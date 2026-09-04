@@ -5,12 +5,9 @@ public class Name {
     private String myLast;
     
     public Name (String first, String middle, String last) {
-       myFirst = first;
-       myMiddle = middle;
-       myLast = last;
-       fixcase(myFirst);
-       fixcase(myMiddle);
-       fixcase(myLast);
+       myFirst = fixcase(first);
+       myMiddle = fixcase(middle);
+       myLast = fixcase(last);
     }
     
     public String lastFirst ( ) {
